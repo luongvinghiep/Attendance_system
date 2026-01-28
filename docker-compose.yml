@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: attendance_app
+    volumes:
+      - .:/app
+    stdin_open: true # Quan trọng để nhập liệu từ bàn phím
+    tty: true        # Quan trọng để hiện terminal

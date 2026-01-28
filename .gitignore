@@ -1,0 +1,17 @@
+# 1. Bỏ qua file biên dịch Python (Rác)
+__pycache__/
+*.pyc
+
+# 2. Bỏ qua thư mục môi trường ảo (Nặng, không cần thiết)
+venv/
+.venv/
+env/
+
+# 3. Bỏ qua Database (Vì đây là file dữ liệu cục bộ, không nên đưa lên)
+*.db
+attendance.db
+
+# 4. Bỏ qua file cấu hình của Editor (Nếu dùng VS Code, PyCharm)
+.vscode/
+.idea/
+

@@ -1,0 +1,21 @@
+# --- Giao diện & Hiển thị (UI/UX) ---
+tabulate>=0.9.0
+# Dùng cho:
+# 1. Admin: Xem danh sách User, Báo cáo thống kê.
+# 2. Student/Lecturer: Xem thời khóa biểu (Schedule) dạng bảng.
+
+colorama>=0.4.6
+# Dùng cho:
+# Toàn bộ dự án: Giúp in chữ màu (Xanh cho thông báo thành công, Đỏ cho lỗi)
+# hoạt động ổn định trên cả Windows và Linux/Docker.
+
+# --- Bảo mật & Nhập liệu (Input Security) ---
+pwinput>=1.0.3
+# Dùng cho:
+# Chức năng Login (All Actors): Khi nhập mật khẩu sẽ hiện dấu *****
+# thay vì hiện rõ ký tự (Bảo mật cơ bản cần có).
+
+# --- Kiểm thử (Testing - Optional) ---
+pytest>=7.0.0
+# Dùng cho:
+# Chạy các test case nếu ông muốn viết test sau này (vì tên folder là ProgAndTest).
